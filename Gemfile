@@ -4,6 +4,8 @@ ruby '2.1.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 
+gem 'nokogiri', '1.6.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -27,6 +29,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.0'
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
+
+gem 'aws-sdk', '~> 2.0.24'
 
 group :development, :test do
 	gem 'sqlite3'
