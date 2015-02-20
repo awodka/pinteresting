@@ -30,7 +30,7 @@ gem 'devise', '~> 3.4.0'
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
-gem 'aws-sdk', '~> 2.0.24'
+gem 'aws-sdk', '< 2.0'
 
 gem 'masonry-rails','~> 0.2.0'
 
